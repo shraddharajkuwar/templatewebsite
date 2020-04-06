@@ -153,6 +153,9 @@ h1, h2, h3, h4, h5, h6 {
   #header #logo img {
     max-height: 40px;
   }
+  #portfolio .portfolio-item{
+    padding: 20px 0px;
+  }
 }
 
 #intro {
@@ -337,6 +340,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #nav-menu-container {
     display: none;
+  }
+  #portfolio .portfolio-item{
+    padding: 20px 0px;
   }
 }
 
@@ -699,7 +705,7 @@ section {
 /* Our Portfolio Section
 --------------------------------*/
 #portfolio, #services, #about{
-  padding-top: 60px;
+ padding: 60px 20px;
 }
 
 #portfolio .portfolio-overlay {
